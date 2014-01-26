@@ -44,9 +44,9 @@ Database - PostGres
 -------------------
 PostGres is a mature, cross-platform RDBS, and is supported by Heroku and other hosts. As much as I want to play with MongoDB, I feel the number of relationships in this application to be more suitable for a RDBS.
 
-
-
-
+References
+==========
+Ruby on Rails Tutorial, Hartl, 2014 http://ruby.railstutorial.org/ruby-on-rails-tutorial-book
 
 
 
