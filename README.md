@@ -21,6 +21,7 @@ Opportunities
 ============
 - Learn new programming techniques and solutions through cross language discussion.
 - Data analysis can show trends in language use.
+- Provide a system for teams and organizations to pre-screen and/or look for candidates to fill positions.
 
 Security Concerns
 =================
