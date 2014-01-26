@@ -25,24 +25,37 @@ Opportunities
 
 Security Concerns
 =================
-- Duplicate voting.  IP address, timestamp, and user will be associated with every vote.  Periodic analysis will be needed identify and remove duplicate votes and, if necessary, ban accounts.
-- SPAM. At some point, detection of automated spam posting may be required. Disgus will be used for the commenting system with the assumption that Disgus has systems in place to combat spam.
+Where is there potential for security issues and/or fraud?
+
+Duplicate voting
+----------------
+IP address, timestamp, and user will be associated with every vote.  Periodic analysis will be needed identify and remove duplicate votes and, if necessary, ban accounts.
+
+SPAM
+----
+At some point, detection of automated spam posting may be required. To start, Disgus will be used for the commenting system.  Disgus provides some anti-spam services and other social features that giveMeCode users may find useful.
  
 Technology Stack
 ================
 What technologies are used in this solution?
 
-Rub on Rails - Server side web API and templating
+Rub on Rails 4.0
 -------------------------------------------------
+Ruby on Rails will be used for server side API, HTML templating, and css/js minification.
+
 Why Ruby on Rails? Based on a quick scan for open positions (particularly on weworkremotely), RoR appears to be quite popular. Ruby claims to be a language built to make programmer's jobs easier. I want to see what the fuss is about.  Also, RoR is supported on both Windows and Nix servers, increasing hosting flexibility.
 
 Heroku - Application Host
 -------------------------
 Heroku is a PAAS provider with free entry-level hosting that can easily be scaled, should this project take off.  Heroku provides application templates with git-based deployment.  Both of these features help to expedite application startup and ongoing maintenance.
 
-Database - PostGres
+Datastore - PostGres
 -------------------
 PostGres is a mature, cross-platform RDBS, and is supported by Heroku and other hosts. As much as I want to play with MongoDB, I feel the number of relationships in this application to be more suitable for a RDBS.
+
+Zurb Foundation
+---------------
+Base UI styling.  I've been using Twitter Bootstrap for some time.  Let's try something else!
 
 References
 ==========
