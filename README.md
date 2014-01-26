@@ -34,6 +34,20 @@ What technologies are used in this solution?
 
 Rub on Rails - Server side web API and templating
 -------------------------------------------------
-Why Ruby on Rails? Based on a quick scan for open positions, RoR appears to be quite popular lately. Ruby claims to be a language built to make programmer's jobs easier. I want to see what the fuss is about.
+Why Ruby on Rails? Based on a quick scan for open positions (particularly on weworkremotely), RoR appears to be quite popular. Ruby claims to be a language built to make programmer's jobs easier. I want to see what the fuss is about.  Also, RoR is supported on both Windows and Nix servers, increasing hosting flexibility.
+
+Heroku - Application Host
+-------------------------
+Heroku is a PAAS provider with free entry-level hosting that can easily be scaled, should this project take off.  Heroku provides application templates with git-based deployment.  Both of these features help to expedite application startup and ongoing maintenance.
+
+Database - PostGres
+-------------------
+PostGres is a mature, cross-platform RDBS, and is supported by Heroku and other hosts. As much as I want to play with MongoDB, I feel the number of relationships in this application to be more suitable for a RDBS.
+
+
+
+
+
+
 
 
