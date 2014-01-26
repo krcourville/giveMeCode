@@ -27,4 +27,13 @@ Security Concerns
 =================
 - Duplicate voting.  IP address, timestamp, and user will be associated with every vote.  Periodic analysis will be needed identify and remove duplicate votes and, if necessary, ban accounts.
 - SPAM. At some point, detection of automated spam posting may be required. Disgus will be used for the commenting system with the assumption that Disgus has systems in place to combat spam.
+ 
+Technology Stack
+================
+What technologies are used in this solution?
+
+Rub on Rails - Server side web API and templating
+-------------------------------------------------
+Why Ruby on Rails? Based on a quick scan for open positions, RoR appears to be quite popular lately. Ruby claims to be a language built to make programmer's jobs easier. I want to see what the fuss is about.
+
 
